@@ -33,10 +33,8 @@
 ![](/images/Sheet7.png)
 
 ## Summary
-    The new design has some advantages in letting the user search with multiple filters at once, but it also has some drawbacks and places it could be improved on.
-### Drawback
-    The fact that it lacks a button for the user to click on to manually filter the table is just removing a function for no real reason, some users might be confused there's no clear instruction or button to filter the results.
-### Recommendation 1:
-    The lack of ability to filter multiple values for any column makes selecting a certain group from the list impossible. For example, if the user could select sightings from multiple cities or a range of dates the filtering would be improved to better suit the user searches.
-### Recommendation 2:
-    Adding additional filters for the other columns on the table could be helpful. For the larger comments section, it could just include any comments that contain the keywords the user enters for the search filter.
+    The story gives some insights on the peak hours for trips and the locations of them broken down by geneder and customer type for the time the trips take place.
+### Visualization 1:
+    Getting starting and ending locations based on the genders or customer types would be helpful to see if there is any bias in locations for the gender and customer types and could help us understand the customers more.
+### Visualization 2:
+    Getting a breakdown of the trip times based on the age of customers could be helpful to see if there is a difference in trip times based on age and if so, to see if there's anyway to could encourage certain age groups to take longer or shorter trips depending on the data findings.
