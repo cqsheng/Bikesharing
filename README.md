@@ -7,7 +7,7 @@
     The purpose of this project is to create a easy to understand visualization of bikesharing data for NYC to determine the if bikesharing is a viable business or not. As well as how the findings we have could help with a new business and what lessons we can learn from it.
 
 ## Results
-    The story created in this Tableau story shows various data in an easy to understand way for a non data oriented audience. The dashboard can be found online in this link. 
+    The story created in this Tableau story shows various data in an easy to understand way for a non data oriented audience. The dashboard can be found online in this link as 'module 15'. 
 [link to dashboard](https://public.tableau.com/app/profile/chao3273)
 ### Story for NYC Bikeshare data:
     A description for the results in the story's data will be given here:
