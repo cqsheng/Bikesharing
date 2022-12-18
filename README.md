@@ -7,31 +7,27 @@
     The purpose of this project is to create a easy to understand visualization of bikesharing data for NYC to determine the if bikesharing is a viable business or not. As well as how the findings we have could help with a new business and what lessons we can learn from it.
 
 ## Results
-    The story created in this Tableau story shows various data in an easy to understand way for a non data oriented audience. The dashboard can be found online in this link as 'module 15'. 
-[link to dashboard](https://public.tableau.com/app/profile/chao3273)
-### Story for NYC Bikeshare data:
-    A description for the results in the story's data will be given here:
-### Visual 1:
+    The following is a list of results and scores for all 6 different models, the results will be analyzed with the accompying pictures to determine how well they each performed and how relaible they are in predicting credit risk. 
+### Supervised Machine Learning Models:
+
+### Model 1 RandomOverSampler:
     The trip duration for the bikes is generally fairly short, with the vast majority in under an hour, and most of those lasting less than 20 minutes.
-![](/images/Sheet1.png)
-### Visual 2:
+![](/images/model1.png)
+### Model 2 SMOTE:
     The majority of users are male, with a few being 'unknown' gender, however whatever their gender, the trip duration isn't affected much.
-![](/images/Sheet2.png)
-### Visual 3:
+![](/images/model2.png)
+### Model 3 ClusterCentroids:
     The number of trips are highest on weekdays from 5-7pm, followed by 7-9am, this is likely for people leaving and going to work. This assumption is backed up by the fact that the spread is much more even during the weekend.
-![](/images/Sheet3.png)
-### Visual 4:
+![](/images/model3.png)
+### Model 4 SMOTEENN:
     The gender doesn't seem to have any affect on the concentration of trips for any given time, male and female both seem to same distribution when they're more likely to get the bike.
-![](/images/Sheet4.png)
-### Visual 5:
+![](/images/model4.png)
+### Model 5 BalancedRandomForestClassifier:
     The trips are highest for subscribers on Thursday and Friday for male and female, while the non subscriber customers seems to be highest during the weekend.
-![](/images/Sheet5.png)
-### Visual 6:
+![](/images/model5.png)
+### Model 6 EasyEnsembleClassifier:
     The top starting locations are clustered in a certain area in Manhattan, with much fewer trips outside the island.
-![](/images/Sheet6.png)
-### Visual 7:
-    The top ending locations are similar to the starting locations, which is a good thing since the bikes from one location won't disappear many people start from there while nobody ends their trips there.
-![](/images/Sheet7.png)
+![](/images/model6.png)
 
 ## Summary
     The story gives some insights on the peak hours for trips and the locations of them broken down by geneder and customer type for the time the trips take place.
